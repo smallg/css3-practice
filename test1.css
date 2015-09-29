@@ -1,0 +1,93 @@
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+section{
+    margin: 10px 0;
+}
+.first{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    border: 10px solid #000;
+    border-radius: 100px;
+}
+.first.f1{
+    border-radius: 0;
+}
+.first.f2{
+    border-radius: 30px;
+}
+.second{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    border-top: 100px solid #00db69;
+    border-right: 100px solid #ee25ca;
+    border-bottom: 100px solid #b98dcc;
+    border-left: 100px solid #cc8c00;
+}
+.second.s1{
+    border: 100px solid transparent;
+    border-top: 100px solid #00db69;
+}
+.second.s2{
+    border: 100px solid transparent;
+    border-bottom: 100px solid #b98dcc;
+}
+.second.s3{
+    border: 100px solid transparent;
+    border-bottom: 100px solid #00db69;
+    border-left: 100px solid #00db69;
+}
+.third{
+    width: 100px;
+    height: 0;
+    margin-right: 20px;
+    display: inline-block;
+    border: 10px solid #000;
+}
+.third.t2{
+    border-radius: 10px;
+}
+.third.t3{
+    border-radius: 10px;
+    transform: rotate(20deg);
+}
+.third.t4{
+    border-radius: 10px;
+    transform: rotate(-20deg);
+}
+section.search{
+    height: 200px;
+}
+.search .first.f3{
+    position: relative;
+}
+.search .third.t3{
+    position: absolute;
+    top: 124px;
+    left: 72px;
+    border: 13px solid #000;
+    transform: rotate(45deg);
+}
+.plus-icon{
+    height: 200px;
+}
+.plus{
+    width: 100px;
+    height: 0;
+    border: 10px solid #000;
+}
+.plus.horizontal{
+    position: relative;
+}
+.plus.vertical{
+    position: absolute;
+    transform: rotate(90deg);
+    top: -5px;
+    left: -10px;
+}
