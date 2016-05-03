@@ -81,9 +81,9 @@ section.search{
     width: 100px;
     height: 0;
     border: 10px solid #000;
-    -webkit-animation: 1s plus steps(10) infinite;
-    -moz-animation: 1s plus steps(10) infinite;
-    animation: 1s plus steps(10) infinite
+    -webkit-animation: 1s plus steps(1000) infinite;
+    -moz-animation: 1s plus steps(1000) infinite;
+    animation: 1s plus steps(1000) infinite
 }
 @-webkit-keyframes plus {
     0% {
